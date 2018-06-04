@@ -7,13 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		057DAABC20C5D74900DA7A76 /* StyleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23ADC20C5C934001ABC6D /* StyleExtensions.swift */; };
 		05A23A2420C5C337001ABC6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23A2320C5C337001ABC6D /* AppDelegate.swift */; };
-		05A23A2620C5C337001ABC6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23A2520C5C337001ABC6D /* ViewController.swift */; };
-		05A23A2920C5C337001ABC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A23A2720C5C337001ABC6D /* Main.storyboard */; };
-		05A23A2B20C5C339001ABC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A23A2A20C5C339001ABC6D /* Assets.xcassets */; };
-		05A23A2E20C5C339001ABC6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A23A2C20C5C339001ABC6D /* LaunchScreen.storyboard */; };
 		05A23A3920C5C339001ABC6D /* SmashMobile_v4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23A3820C5C339001ABC6D /* SmashMobile_v4Tests.swift */; };
 		05A23A4420C5C339001ABC6D /* SmashMobile_v4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23A4320C5C339001ABC6D /* SmashMobile_v4UITests.swift */; };
+		05A23A8E20C5C3E8001ABC6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A23A8820C5C3E8001ABC6D /* LaunchScreen.storyboard */; };
+		05A23A8F20C5C3E8001ABC6D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23A8A20C5C3E8001ABC6D /* LogInViewController.swift */; };
+		05A23A9120C5C3E8001ABC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A23A8C20C5C3E8001ABC6D /* Main.storyboard */; };
+		05A23A9320C5C3FF001ABC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A23A9220C5C3FF001ABC6D /* Assets.xcassets */; };
+		05A23A9B20C5C408001ABC6D /* RC_HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23A9420C5C407001ABC6D /* RC_HomeViewController.swift */; };
+		05A23A9C20C5C408001ABC6D /* RC_SpecificJobTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23A9520C5C407001ABC6D /* RC_SpecificJobTableViewController.swift */; };
+		05A23A9D20C5C408001ABC6D /* RC_JobsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23A9620C5C407001ABC6D /* RC_JobsTableViewController.swift */; };
+		05A23A9E20C5C408001ABC6D /* RC_StatusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23A9720C5C408001ABC6D /* RC_StatusTableViewController.swift */; };
+		05A23A9F20C5C408001ABC6D /* RC_SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23A9820C5C408001ABC6D /* RC_SettingsTableViewController.swift */; };
+		05A23AA020C5C408001ABC6D /* RC_IndividualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23A9920C5C408001ABC6D /* RC_IndividualViewController.swift */; };
+		05A23AA120C5C408001ABC6D /* Recruiter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A23A9A20C5C408001ABC6D /* Recruiter.storyboard */; };
+		05A23AAA20C5C40F001ABC6D /* HM_IndividualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23AA220C5C40E001ABC6D /* HM_IndividualViewController.swift */; };
+		05A23AAB20C5C40F001ABC6D /* HM_JobsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23AA320C5C40E001ABC6D /* HM_JobsTableViewController.swift */; };
+		05A23AAC20C5C40F001ABC6D /* HM_HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23AA420C5C40E001ABC6D /* HM_HomeViewController.swift */; };
+		05A23AAD20C5C40F001ABC6D /* HiringManager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A23AA520C5C40E001ABC6D /* HiringManager.storyboard */; };
+		05A23AAE20C5C40F001ABC6D /* HM_MyListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23AA620C5C40E001ABC6D /* HM_MyListTableViewController.swift */; };
+		05A23AAF20C5C40F001ABC6D /* HM_SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23AA720C5C40E001ABC6D /* HM_SettingsTableViewController.swift */; };
+		05A23AB020C5C40F001ABC6D /* HM_SpecificJobTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23AA820C5C40E001ABC6D /* HM_SpecificJobTableViewController.swift */; };
+		05A23AB120C5C40F001ABC6D /* HM_StatusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23AA920C5C40E001ABC6D /* HM_StatusTableViewController.swift */; };
+		05A23ACF20C5C88C001ABC6D /* SourceSansPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A23ABA20C5C610001ABC6D /* SourceSansPro-Black.ttf */; };
+		05A23AD020C5C88C001ABC6D /* SourceSansPro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A23ABB20C5C610001ABC6D /* SourceSansPro-BlackItalic.ttf */; };
+		05A23AD120C5C88C001ABC6D /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A23ABC20C5C610001ABC6D /* SourceSansPro-Bold.ttf */; };
+		05A23AD220C5C88C001ABC6D /* SourceSansPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A23AB820C5C610001ABC6D /* SourceSansPro-BoldItalic.ttf */; };
+		05A23AD320C5C88C001ABC6D /* SourceSansPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A23AB920C5C610001ABC6D /* SourceSansPro-ExtraLight.ttf */; };
+		05A23AD420C5C88C001ABC6D /* SourceSansPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A23AC120C5C610001ABC6D /* SourceSansPro-ExtraLightItalic.ttf */; };
+		05A23AD520C5C88C001ABC6D /* SourceSansPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A23ABD20C5C610001ABC6D /* SourceSansPro-Italic.ttf */; };
+		05A23AD620C5C88C001ABC6D /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A23ABE20C5C610001ABC6D /* SourceSansPro-Light.ttf */; };
+		05A23AD720C5C88C001ABC6D /* SourceSansPro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A23AB720C5C610001ABC6D /* SourceSansPro-LightItalic.ttf */; };
+		05A23AD820C5C88C001ABC6D /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A23ABF20C5C610001ABC6D /* SourceSansPro-Regular.ttf */; };
+		05A23AD920C5C88C001ABC6D /* SourceSansPro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A23AC020C5C610001ABC6D /* SourceSansPro-Semibold.ttf */; };
+		05A23ADA20C5C88C001ABC6D /* SourceSansPro-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A23AC220C5C610001ABC6D /* SourceSansPro-SemiboldItalic.ttf */; };
+		05A23ADF20C5C942001ABC6D /* StructObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A23ADE20C5C942001ABC6D /* StructObjects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +65,6 @@
 /* Begin PBXFileReference section */
 		05A23A2020C5C337001ABC6D /* SmashMobile_v4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmashMobile_v4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A23A2320C5C337001ABC6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05A23A2520C5C337001ABC6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		05A23A2820C5C337001ABC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		05A23A2A20C5C339001ABC6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		05A23A2D20C5C339001ABC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05A23A2F20C5C339001ABC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05A23A3420C5C339001ABC6D /* SmashMobile_v4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashMobile_v4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A23A3820C5C339001ABC6D /* SmashMobile_v4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashMobile_v4Tests.swift; sourceTree = "<group>"; };
@@ -47,6 +72,39 @@
 		05A23A3F20C5C339001ABC6D /* SmashMobile_v4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashMobile_v4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A23A4320C5C339001ABC6D /* SmashMobile_v4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashMobile_v4UITests.swift; sourceTree = "<group>"; };
 		05A23A4520C5C339001ABC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05A23A8920C5C3E8001ABC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../SmashMobile_v3/SmashMobile_v3/Both/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05A23A8A20C5C3E8001ABC6D /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogInViewController.swift; path = ../../../SmashMobile_v3/SmashMobile_v3/Both/LogInViewController.swift; sourceTree = "<group>"; };
+		05A23A8D20C5C3E8001ABC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../SmashMobile_v3/SmashMobile_v3/Both/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05A23A9220C5C3FF001ABC6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../SmashMobile_v3/SmashMobile_v3/Assets.xcassets; sourceTree = "<group>"; };
+		05A23A9420C5C407001ABC6D /* RC_HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RC_HomeViewController.swift; path = ../../../SmashMobile_v3/SmashMobile_v3/Recruiter/RC_HomeViewController.swift; sourceTree = "<group>"; };
+		05A23A9520C5C407001ABC6D /* RC_SpecificJobTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RC_SpecificJobTableViewController.swift; path = ../../../SmashMobile_v3/SmashMobile_v3/Recruiter/RC_SpecificJobTableViewController.swift; sourceTree = "<group>"; };
+		05A23A9620C5C407001ABC6D /* RC_JobsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RC_JobsTableViewController.swift; path = ../../../SmashMobile_v3/SmashMobile_v3/Recruiter/RC_JobsTableViewController.swift; sourceTree = "<group>"; };
+		05A23A9720C5C408001ABC6D /* RC_StatusTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RC_StatusTableViewController.swift; path = ../../../SmashMobile_v3/SmashMobile_v3/Recruiter/RC_StatusTableViewController.swift; sourceTree = "<group>"; };
+		05A23A9820C5C408001ABC6D /* RC_SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RC_SettingsTableViewController.swift; path = ../../../SmashMobile_v3/SmashMobile_v3/Recruiter/RC_SettingsTableViewController.swift; sourceTree = "<group>"; };
+		05A23A9920C5C408001ABC6D /* RC_IndividualViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RC_IndividualViewController.swift; path = ../../../SmashMobile_v3/SmashMobile_v3/Recruiter/RC_IndividualViewController.swift; sourceTree = "<group>"; };
+		05A23A9A20C5C408001ABC6D /* Recruiter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Recruiter.storyboard; path = ../../../SmashMobile_v3/SmashMobile_v3/Recruiter/Recruiter.storyboard; sourceTree = "<group>"; };
+		05A23AA220C5C40E001ABC6D /* HM_IndividualViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HM_IndividualViewController.swift; path = ../../../SmashMobile_v3/SmashMobile_v3/HiringManager/HM_IndividualViewController.swift; sourceTree = "<group>"; };
+		05A23AA320C5C40E001ABC6D /* HM_JobsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HM_JobsTableViewController.swift; path = ../../../SmashMobile_v3/SmashMobile_v3/HiringManager/HM_JobsTableViewController.swift; sourceTree = "<group>"; };
+		05A23AA420C5C40E001ABC6D /* HM_HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HM_HomeViewController.swift; path = ../../../SmashMobile_v3/SmashMobile_v3/HiringManager/HM_HomeViewController.swift; sourceTree = "<group>"; };
+		05A23AA520C5C40E001ABC6D /* HiringManager.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = HiringManager.storyboard; path = ../../../SmashMobile_v3/SmashMobile_v3/HiringManager/HiringManager.storyboard; sourceTree = "<group>"; };
+		05A23AA620C5C40E001ABC6D /* HM_MyListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HM_MyListTableViewController.swift; path = ../../../SmashMobile_v3/SmashMobile_v3/HiringManager/HM_MyListTableViewController.swift; sourceTree = "<group>"; };
+		05A23AA720C5C40E001ABC6D /* HM_SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HM_SettingsTableViewController.swift; path = ../../../SmashMobile_v3/SmashMobile_v3/HiringManager/HM_SettingsTableViewController.swift; sourceTree = "<group>"; };
+		05A23AA820C5C40E001ABC6D /* HM_SpecificJobTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HM_SpecificJobTableViewController.swift; path = ../../../SmashMobile_v3/SmashMobile_v3/HiringManager/HM_SpecificJobTableViewController.swift; sourceTree = "<group>"; };
+		05A23AA920C5C40E001ABC6D /* HM_StatusTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HM_StatusTableViewController.swift; path = ../../../SmashMobile_v3/SmashMobile_v3/HiringManager/HM_StatusTableViewController.swift; sourceTree = "<group>"; };
+		05A23AB720C5C610001ABC6D /* SourceSansPro-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-LightItalic.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-LightItalic.ttf"; sourceTree = "<group>"; };
+		05A23AB820C5C610001ABC6D /* SourceSansPro-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-BoldItalic.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-BoldItalic.ttf"; sourceTree = "<group>"; };
+		05A23AB920C5C610001ABC6D /* SourceSansPro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-ExtraLight.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		05A23ABA20C5C610001ABC6D /* SourceSansPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Black.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-Black.ttf"; sourceTree = "<group>"; };
+		05A23ABB20C5C610001ABC6D /* SourceSansPro-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-BlackItalic.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-BlackItalic.ttf"; sourceTree = "<group>"; };
+		05A23ABC20C5C610001ABC6D /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Bold.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-Bold.ttf"; sourceTree = "<group>"; };
+		05A23ABD20C5C610001ABC6D /* SourceSansPro-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Italic.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-Italic.ttf"; sourceTree = "<group>"; };
+		05A23ABE20C5C610001ABC6D /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Light.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-Light.ttf"; sourceTree = "<group>"; };
+		05A23ABF20C5C610001ABC6D /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Regular.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		05A23AC020C5C610001ABC6D /* SourceSansPro-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-Semibold.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-Semibold.ttf"; sourceTree = "<group>"; };
+		05A23AC120C5C610001ABC6D /* SourceSansPro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-ExtraLightItalic.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		05A23AC220C5C610001ABC6D /* SourceSansPro-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SourceSansPro-SemiboldItalic.ttf"; path = "../../../../../Downloads/source-sans-pro/SourceSansPro-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		05A23ADC20C5C934001ABC6D /* StyleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleExtensions.swift; sourceTree = "<group>"; };
+		05A23ADE20C5C942001ABC6D /* StructObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructObjects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +155,14 @@
 		05A23A2220C5C337001ABC6D /* SmashMobile_v4 */ = {
 			isa = PBXGroup;
 			children = (
-				05A23A2320C5C337001ABC6D /* AppDelegate.swift */,
-				05A23A2520C5C337001ABC6D /* ViewController.swift */,
-				05A23A2720C5C337001ABC6D /* Main.storyboard */,
-				05A23A2A20C5C339001ABC6D /* Assets.xcassets */,
-				05A23A2C20C5C339001ABC6D /* LaunchScreen.storyboard */,
+				05A23A9220C5C3FF001ABC6D /* Assets.xcassets */,
 				05A23A2F20C5C339001ABC6D /* Info.plist */,
+				05A23ADC20C5C934001ABC6D /* StyleExtensions.swift */,
+				05A23ADE20C5C942001ABC6D /* StructObjects.swift */,
+				05A23A8520C5C3D1001ABC6D /* Both */,
+				05A23A8620C5C3D5001ABC6D /* HiringManager */,
+				05A23A8720C5C3DD001ABC6D /* Recruiter */,
+				05A23AB620C5C607001ABC6D /* Fonts */,
 			);
 			path = SmashMobile_v4;
 			sourceTree = "<group>";
@@ -123,6 +183,65 @@
 				05A23A4520C5C339001ABC6D /* Info.plist */,
 			);
 			path = SmashMobile_v4UITests;
+			sourceTree = "<group>";
+		};
+		05A23A8520C5C3D1001ABC6D /* Both */ = {
+			isa = PBXGroup;
+			children = (
+				05A23A8C20C5C3E8001ABC6D /* Main.storyboard */,
+				05A23A8820C5C3E8001ABC6D /* LaunchScreen.storyboard */,
+				05A23A2320C5C337001ABC6D /* AppDelegate.swift */,
+				05A23A8A20C5C3E8001ABC6D /* LogInViewController.swift */,
+			);
+			path = Both;
+			sourceTree = "<group>";
+		};
+		05A23A8620C5C3D5001ABC6D /* HiringManager */ = {
+			isa = PBXGroup;
+			children = (
+				05A23AA520C5C40E001ABC6D /* HiringManager.storyboard */,
+				05A23AA420C5C40E001ABC6D /* HM_HomeViewController.swift */,
+				05A23AA220C5C40E001ABC6D /* HM_IndividualViewController.swift */,
+				05A23AA320C5C40E001ABC6D /* HM_JobsTableViewController.swift */,
+				05A23AA620C5C40E001ABC6D /* HM_MyListTableViewController.swift */,
+				05A23AA720C5C40E001ABC6D /* HM_SettingsTableViewController.swift */,
+				05A23AA820C5C40E001ABC6D /* HM_SpecificJobTableViewController.swift */,
+				05A23AA920C5C40E001ABC6D /* HM_StatusTableViewController.swift */,
+			);
+			path = HiringManager;
+			sourceTree = "<group>";
+		};
+		05A23A8720C5C3DD001ABC6D /* Recruiter */ = {
+			isa = PBXGroup;
+			children = (
+				05A23A9A20C5C408001ABC6D /* Recruiter.storyboard */,
+				05A23A9420C5C407001ABC6D /* RC_HomeViewController.swift */,
+				05A23A9920C5C408001ABC6D /* RC_IndividualViewController.swift */,
+				05A23A9620C5C407001ABC6D /* RC_JobsTableViewController.swift */,
+				05A23A9820C5C408001ABC6D /* RC_SettingsTableViewController.swift */,
+				05A23A9520C5C407001ABC6D /* RC_SpecificJobTableViewController.swift */,
+				05A23A9720C5C408001ABC6D /* RC_StatusTableViewController.swift */,
+			);
+			path = Recruiter;
+			sourceTree = "<group>";
+		};
+		05A23AB620C5C607001ABC6D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				05A23ABA20C5C610001ABC6D /* SourceSansPro-Black.ttf */,
+				05A23ABB20C5C610001ABC6D /* SourceSansPro-BlackItalic.ttf */,
+				05A23ABC20C5C610001ABC6D /* SourceSansPro-Bold.ttf */,
+				05A23AB820C5C610001ABC6D /* SourceSansPro-BoldItalic.ttf */,
+				05A23AB920C5C610001ABC6D /* SourceSansPro-ExtraLight.ttf */,
+				05A23AC120C5C610001ABC6D /* SourceSansPro-ExtraLightItalic.ttf */,
+				05A23ABD20C5C610001ABC6D /* SourceSansPro-Italic.ttf */,
+				05A23ABE20C5C610001ABC6D /* SourceSansPro-Light.ttf */,
+				05A23AB720C5C610001ABC6D /* SourceSansPro-LightItalic.ttf */,
+				05A23ABF20C5C610001ABC6D /* SourceSansPro-Regular.ttf */,
+				05A23AC020C5C610001ABC6D /* SourceSansPro-Semibold.ttf */,
+				05A23AC220C5C610001ABC6D /* SourceSansPro-SemiboldItalic.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +348,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05A23A2E20C5C339001ABC6D /* LaunchScreen.storyboard in Resources */,
-				05A23A2B20C5C339001ABC6D /* Assets.xcassets in Resources */,
-				05A23A2920C5C337001ABC6D /* Main.storyboard in Resources */,
+				05A23AD620C5C88C001ABC6D /* SourceSansPro-Light.ttf in Resources */,
+				05A23AD320C5C88C001ABC6D /* SourceSansPro-ExtraLight.ttf in Resources */,
+				05A23AAD20C5C40F001ABC6D /* HiringManager.storyboard in Resources */,
+				05A23AD220C5C88C001ABC6D /* SourceSansPro-BoldItalic.ttf in Resources */,
+				05A23AA120C5C408001ABC6D /* Recruiter.storyboard in Resources */,
+				05A23AD820C5C88C001ABC6D /* SourceSansPro-Regular.ttf in Resources */,
+				05A23AD020C5C88C001ABC6D /* SourceSansPro-BlackItalic.ttf in Resources */,
+				05A23A8E20C5C3E8001ABC6D /* LaunchScreen.storyboard in Resources */,
+				05A23AD720C5C88C001ABC6D /* SourceSansPro-LightItalic.ttf in Resources */,
+				05A23AD920C5C88C001ABC6D /* SourceSansPro-Semibold.ttf in Resources */,
+				05A23ADA20C5C88C001ABC6D /* SourceSansPro-SemiboldItalic.ttf in Resources */,
+				05A23AD420C5C88C001ABC6D /* SourceSansPro-ExtraLightItalic.ttf in Resources */,
+				05A23A9320C5C3FF001ABC6D /* Assets.xcassets in Resources */,
+				05A23ACF20C5C88C001ABC6D /* SourceSansPro-Black.ttf in Resources */,
+				05A23A9120C5C3E8001ABC6D /* Main.storyboard in Resources */,
+				05A23AD520C5C88C001ABC6D /* SourceSansPro-Italic.ttf in Resources */,
+				05A23AD120C5C88C001ABC6D /* SourceSansPro-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +389,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05A23A2620C5C337001ABC6D /* ViewController.swift in Sources */,
+				05A23A9D20C5C408001ABC6D /* RC_JobsTableViewController.swift in Sources */,
+				05A23A8F20C5C3E8001ABC6D /* LogInViewController.swift in Sources */,
+				05A23AAC20C5C40F001ABC6D /* HM_HomeViewController.swift in Sources */,
 				05A23A2420C5C337001ABC6D /* AppDelegate.swift in Sources */,
+				05A23A9F20C5C408001ABC6D /* RC_SettingsTableViewController.swift in Sources */,
+				057DAABC20C5D74900DA7A76 /* StyleExtensions.swift in Sources */,
+				05A23AAF20C5C40F001ABC6D /* HM_SettingsTableViewController.swift in Sources */,
+				05A23A9E20C5C408001ABC6D /* RC_StatusTableViewController.swift in Sources */,
+				05A23AAB20C5C40F001ABC6D /* HM_JobsTableViewController.swift in Sources */,
+				05A23ADF20C5C942001ABC6D /* StructObjects.swift in Sources */,
+				05A23A9B20C5C408001ABC6D /* RC_HomeViewController.swift in Sources */,
+				05A23AAE20C5C40F001ABC6D /* HM_MyListTableViewController.swift in Sources */,
+				05A23AB020C5C40F001ABC6D /* HM_SpecificJobTableViewController.swift in Sources */,
+				05A23AAA20C5C40F001ABC6D /* HM_IndividualViewController.swift in Sources */,
+				05A23AB120C5C40F001ABC6D /* HM_StatusTableViewController.swift in Sources */,
+				05A23A9C20C5C408001ABC6D /* RC_SpecificJobTableViewController.swift in Sources */,
+				05A23AA020C5C408001ABC6D /* RC_IndividualViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,20 +441,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		05A23A2720C5C337001ABC6D /* Main.storyboard */ = {
+		05A23A8820C5C3E8001ABC6D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				05A23A2820C5C337001ABC6D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		05A23A2C20C5C339001ABC6D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				05A23A2D20C5C339001ABC6D /* Base */,
+				05A23A8920C5C3E8001ABC6D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		05A23A8C20C5C3E8001ABC6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05A23A8D20C5C3E8001ABC6D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
