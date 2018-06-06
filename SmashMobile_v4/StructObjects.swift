@@ -46,19 +46,22 @@ struct Talent {
     var lastName: String = ""
     var phoneNumber: String = ""
     var email: String = ""
-    var education: [String] = []
-    var skills: [String] = []
-    var pastJobs: [String] = []
+    var informationCategories: [String] = []
+    var information: [String] = []
+    var comments: [String] = []
+    var commentRanges: [String] = []
+    var commentPeople: [String] = []
     var resume: [UIImage] = []
     
-    init(firstName: String, lastName: String, phoneNumber: String, email: String, education: [String], skills: [String], pastJobs: [String], resume: [UIImage]) {
+    init(firstName: String, lastName: String, phoneNumber: String, email: String, information: [String], comments: [String], commentRanges: [String], commentPeople: [String], resume: [UIImage]) {
         self.firstName = firstName
         self.lastName = lastName
         self.phoneNumber = phoneNumber
         self.email = email
-        self.education = education
-        self.skills = skills
-        self.pastJobs = pastJobs
+        self.information = information
+        self.comments = comments
+        self.commentRanges = commentRanges
+        self.commentPeople = commentPeople
         self.resume = resume
     }
 }

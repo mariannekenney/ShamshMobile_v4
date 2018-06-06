@@ -37,8 +37,24 @@ extension UIColor {
     }
 }
 
+extension UIViewController {
+    func errorAlert(message: String) {
+        let alert = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        present(alert, animated: true, completion: nil)
+    }
+    
+    func setStyle() {
+        let font: UIFont = UIFont(name: "SourceSansPro-Italic", size: 20.0)!
+        let attr: [NSAttributedStringKey: Any] = [NSAttributedStringKey.font: font]
+        self.navigationController?.navigationBar.titleTextAttributes = attr
+        self.navigationController?.navigationBar.backgroundColor = .white
+        self.navigationController?.navigationBar.tintColor = UIColor.MainColors.primary
+    }
+}
+
 extension UISearchBar {
-    func setFont() {
+    func setStyle() {
         self.tintColor = UIColor.MainColors.secondary
         self.barTintColor = UIColor.MainColors.secondary
         for view : UIView in (self.subviews[0]).subviews {
@@ -50,10 +66,78 @@ extension UISearchBar {
     }
 }
 
-extension UIViewController {
-    func errorAlert(message: String) {
-        let alert = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
-        present(alert, animated: true, completion: nil)
+extension UILabel {
+    func setStyle(color: UIColor, size: Double) {
+        self.font = UIFont(name: "SourceSansPro-Regular", size: CGFloat(size))
+        self.textColor = color
+    }
+}
+
+extension UIButton {
+    func setStyle(color: UIColor, size: Double) {
+        let font: UIFont = UIFont(name: "SourceSansPro-Regular", size: CGFloat(size))!
+        let attr: [NSAttributedStringKey: Any] = [NSAttributedStringKey.font: font]
+        let attrStr: NSAttributedString = NSAttributedString(string: self.title(for: .normal)!, attributes: attr)
+        self.setAttributedTitle(attrStr, for: .normal)
+        self.backgroundColor = .clear
+        self.layer.cornerRadius = 5
+        self.layer.borderWidth = 1
+        self.layer.borderColor = (color as! CGColor)
+    }
+}
+
+extension UISegmentedControl {
+    func setStyle(color: UIColor, size: Double) {
+        self.tintColor = color
+        let font: UIFont = UIFont(name: "SourceSansPro-Regular", size: CGFloat(size))!
+        let attr: [NSObject : AnyObject] = [NSAttributedStringKey.font as NSObject: font]
+        self.setTitleTextAttributes(attr, for: .normal)
+    }
+}
+
+extension UITextField {
+    func setStyle(placeholder: String, size: Double) {
+        self.textColor = UIColor.TextColors.dark
+        self.tintColor = UIColor.MainColors.primary
+        let font: UIFont = UIFont(name: "SourceSansPro-Italic", size: CGFloat(size))!
+        let attr: [NSAttributedStringKey: Any] = [NSAttributedStringKey.font: font]
+        let attrStr: NSAttributedString = NSAttributedString(string: placeholder, attributes: attr)
+        self.attributedPlaceholder = attrStr
+        let font2: UIFont = UIFont(name: "SourceSansPro-Regular", size: CGFloat(size))!
+        let attr2: [NSAttributedStringKey: Any] = [NSAttributedStringKey.font: font2]
+        let attrStr2: NSAttributedString = NSAttributedString(string: "", attributes: attr2)
+        self.attributedText = attrStr2
+    }
+}
+
+extension UISwitch {
+    func setStyle() {
+        self.onTintColor = UIColor.MainColors.light
+        self.thumbTintColor = UIColor.MainColors.primary
+        self.tintColor = UIColor.MainColors.secondary
+    }
+}
+
+extension UITextView {
+    func setStyle(size: Double) {
+        self.font = UIFont(name: "SourceSansPro-Regular", size: CGFloat(size))!
+        self.textColor = UIColor.TextColors.dark
+        self.isEditable = false
+        self.isSelectable = true
+    }
+}
+
+extension UIToolbar {
+    func setStyle() {
+        self.backgroundColor = UIColor.MainColors.light
+    }
+}
+
+extension UIBarButtonItem {
+    func setStyle() {
+        self.tintColor = UIColor.MainColors.primary
+        let font: UIFont = UIFont(name: "SourceSansPro-Regular", size: 17.0)!
+        let attr: [NSAttributedStringKey: Any] = [NSAttributedStringKey.font: font]
+        self.setTitleTextAttributes(attr, for: .normal)
     }
 }
